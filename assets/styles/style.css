@@ -1,0 +1,57 @@
+body {
+	background: url("../images/wooden.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Anton', sans-serif;
+/*	font-family: 'Patua One', cursive;*/
+}
+h1 {
+	
+	font-size: 58px;
+	font-weight: normal;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	text-shadow: 3px 3px grey;
+	-webkit-text-stroke: 1px white;
+	letter-spacing: 3px;
+	color: 	#8c4318;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-top: 0;
+	letter-spacing: 2px;
+	font-family: 'Questrial', sans-serif;
+}
+
+.bio {
+
+	font-size: 14px;
+	font-family: 'Kodchasan', sans-serif;
+	
+}
+
+.me {
+	height: 200px;
+	border-radius: 100%;
+	border-style: dotted;
+	border-color: #331900;
+	margin-top: 40px;
+
+}
+
+#container {
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#bio_container {
+	width: 100%;
+	padding: 20px;
+	background-color: white;
+}
