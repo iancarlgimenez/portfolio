@@ -1,13 +1,21 @@
 body {
+	
+/*	font-family: 'Patua One', cursive;*/
 	background: url("../images/wooden.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	background-repeat: no-repeat;
+	filter: blur(8px);
+  	-webkit-filter: blur(8px);
 	font-family: 'Anton', sans-serif;
-/*	font-family: 'Patua One', cursive;*/
 }
+
+#bkg_image {
+	
+}
+
 h1 {
 	
 	font-size: 58px;
@@ -29,10 +37,10 @@ h2 {
 }
 
 .bio {
-
 	font-size: 14px;
 	font-family: 'Kodchasan', sans-serif;
-	
+	text-align: center;
+	/*width: 100%;*/
 }
 
 .me {
@@ -45,7 +53,7 @@ h2 {
 }
 
 #container {
-	width: 500px;
+	width: 50%;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -53,5 +61,7 @@ h2 {
 #bio_container {
 	width: 100%;
 	padding: 20px;
-	background-color: white;
+	
+	text-align: center;
+	border: 5px solid black;
 }
