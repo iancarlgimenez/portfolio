@@ -1,20 +1,15 @@
 body {
 	
 /*	font-family: 'Patua One', cursive;*/
-	background: url("../images/wooden.jpg") no-repeat center center fixed;
+	background: url("../images/wooden.jpg") no-repeat center center fixed;*
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	background-repeat: no-repeat;
-	filter: blur(8px);
-  	-webkit-filter: blur(8px);
 	font-family: 'Anton', sans-serif;
 }
 
-#bkg_image {
-	
-}
 
 h1 {
 	
@@ -25,7 +20,7 @@ h1 {
 	text-shadow: 3px 3px grey;
 	-webkit-text-stroke: 1px white;
 	letter-spacing: 3px;
-	color: 	#8c4318;
+	color: 	#ff9f32;
 }
 
 h2 {
@@ -61,7 +56,7 @@ h2 {
 #bio_container {
 	width: 100%;
 	padding: 20px;
-	
+	background: rgba(255,255,255,0.5);
 	text-align: center;
-	border: 5px solid black;
+	border: 5px solid #ff9f32;
 }
